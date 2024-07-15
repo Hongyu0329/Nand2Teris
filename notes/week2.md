@@ -24,16 +24,22 @@
 ## Boolean Arithmetic
 ![alt text](image-7.png)
 
-### Computer System
-![alt text](image-5.png)
-#### Arithmetic Logical Unit
-![alt text](image-6.png)
-
 ### Perform Arithmetic Function in HDL
 #### Binary Addition
+![alt text](image-9.png)
 ![alt text](image-8.png)
+Full adder has another input c as there is carry of the former bit
+![alt text](image-10.png)
 
-==unit2.2 9:46==
+#### Negative Numbers
+![alt text](image-11.png)
+
+### Computer System
+#### Von Neumann Architecture
+![alt text](image-5.png)
+#### Arithmetic Logical Unit
+![alt text](image-12.png)
+
 
 <footer>
     <p>&copy; 2024 ECE Department, University of Wisconsin-Madison. All rights reserved.</p>
