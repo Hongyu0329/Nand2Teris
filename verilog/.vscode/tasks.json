@@ -1,0 +1,64 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "compile",
+        "type": "shell",
+        "command": "ghdl",
+        "args": [
+          "-a", "${file}"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": [
+          "$gcc"
+        ],
+        "detail": "Compile Verilog files using GHDL."
+      },
+      {
+        "label": "elaborate",
+        "type": "shell",
+        "command": "ghdl",
+        "args": [
+          "-e", "${fileBasenameNoExtension}_tb"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": [
+          "$gcc"
+        ],
+        "detail": "Elaborate Verilog files using GHDL."
+      },
+      {
+        "label": "simulate",
+        "type": "shell",
+        "command": "ghdl",
+        "args": [
+          "-r", "${fileBasenameNoExtension}_tb",
+          "--vcd=${fileBasenameNoExtension}_tb.vcd"
+        ],
+        "group": {
+          "kind": "test",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "view-waveform",
+        "type": "shell",
+        "command": "gtkwave",
+        "args": [
+          "${fileBasenameNoExtension}_tb.vcd"
+        ],
+        "group": {
+          "kind": "test",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      }
+    ]
+  }

@@ -35,7 +35,12 @@ Sequential logic has delay during computation
 
 ## Flip Flops
 
+remember one bit info at t-1 which will be used in t, as there is time delay in sequential logic
+![alt text](image-13.png)
+ 
+![alt text](image-14.png)
 
+![alt text](image-15.png)
 
 
 <footer>
