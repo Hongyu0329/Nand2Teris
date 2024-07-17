@@ -42,6 +42,11 @@ remember one bit info at t-1 which will be used in t, as there is time delay in 
 
 ![alt text](image-15.png)
 
+## Memory unit
+![alt text](image-16.png)
+
+## Counter
+![alt text](image-17.png)
 
 <footer>
     <p>&copy; 2024 ECE Department, University of Wisconsin-Madison. All rights reserved.</p>
